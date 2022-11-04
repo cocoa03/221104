@@ -58,7 +58,7 @@ cor(MLR_prediected, concrete_test$strength)
 plot(MLR_prediected, concrete_test$strength)
 
 
-# Paldang Chl-a, must change
+# Paldang Chl-a
 data<-read.csv("Paldang.csv", header=TRUE, na.strings = "NA")
 data_norm <- as.data.frame(lapply(data, normalize))
 
